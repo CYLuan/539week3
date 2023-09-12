@@ -1,0 +1,55 @@
+body{
+    background-color:antiquewhite;
+    color:blueviolet;
+}
+
+h1{
+    /* New font size
+Change font family
+Align it to the center*/
+
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* New font size
+Change font family
+Change color */
+h2, h3 {
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    color:blue;
+}
+
+/* P tags
+Change line height.  Use Inspect Element to fine tune the value. */
+p{
+    line-height: 50px;
+}
+
+/* Images
+a 5px solid border of your choice of color
+10px of padding 
+20px of margin
+Add a border-top-right-radius of 30px
+*/
+img{
+    border: 5px solid blue;
+    padding: 10px;
+    margin: 20px;
+    border-top-right-radius: 30px
+}
+
+/* Use an inline-block display
+Add a left-margin of 50px;
+*/
+li{
+    display: inline-block;
+    width: 300px;
+  height: 50px;
+  padding: 5px;
+  border: 1px solid blue;    
+  background-color: yellow;
+	margin-left: 50px;
+}
